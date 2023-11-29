@@ -105,3 +105,48 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media only screen and (max-width: 500px) {
+    .search input {
+        height: 40px;
+        font-size: 14px;
+        min-width: 150px;
+    }
+    
+    .search button {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .weather-icon {
+        width: 150px;
+    }
+    
+    .weather h1 {
+        font-size: 60px;
+        font-weight: 500;
+    }
+    
+    .weather h2 {
+        font-size: 30px;
+    }
+
+    .humidity, .wind {
+        font-size: 16px;
+        margin-top: -6px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .details {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .wind {
+        margin-top: 30px;
+    }
+}
